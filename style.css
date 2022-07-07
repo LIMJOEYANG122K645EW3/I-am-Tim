@@ -1,0 +1,90 @@
+body {
+    margin: 0%;
+    padding-top: 550px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(127, 255, 0);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+#bio {
+
+    font-family: cursive;
+    padding: 300px;
+}
+
+.line {
+    height: 6px;
+    background-color: aquamarine;
+    width: 1000px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#name {
+    font: size 50px;
+    font-family: 'Cinvel Decorative', cursive;
+}
+
+#bio {
+    font-family: 'Orbitron', sans-serif;
+    padding: 400px;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: mediumspringgreen !important;
+}
